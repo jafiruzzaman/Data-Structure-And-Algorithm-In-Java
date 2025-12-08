@@ -1,3 +1,5 @@
+package basics;
+
 import java.util.Scanner;
 /*
 	GFG link --> https://www.geeksforgeeks.org/problems/count-digits-1606889545/1

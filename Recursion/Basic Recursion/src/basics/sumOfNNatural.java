@@ -1,3 +1,5 @@
+package basics;
+
 import java.util.Scanner;
 /*
 	* GFG link --> https://www.geeksforgeeks.org/problems/sum-of-series2811/1

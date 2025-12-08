@@ -1,5 +1,7 @@
 import java.util.Scanner;
-
+/*
+	* GFG link --> https://www.geeksforgeeks.org/problems/sum-of-series2811/1
+*/
 public class sumOfNNatural {
 	static int totalSumOfNNatural(int n){
 		// base-case

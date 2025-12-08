@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Interview/Accenture/Accenture.iml" filepath="$PROJECT_DIR$/Interview/Accenture/Accenture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interview/Adobe/Adobe.iml" filepath="$PROJECT_DIR$/Interview/Adobe/Adobe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interview/Amazon/Amazon.iml" filepath="$PROJECT_DIR$/Interview/Amazon/Amazon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SDE-Sheet/Apna College/Apna College.iml" filepath="$PROJECT_DIR$/SDE-Sheet/Apna College/Apna College.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interview/Atlassian/Atlassian.iml" filepath="$PROJECT_DIR$/Interview/Atlassian/Atlassian.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backtracking/Backtracking.iml" filepath="$PROJECT_DIR$/Backtracking/Backtracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Binary Search/Binary Search.iml" filepath="$PROJECT_DIR$/Binary Search/Binary Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bit Manipulation/Bit Manipulation.iml" filepath="$PROJECT_DIR$/Bit Manipulation/Bit Manipulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SDE-Sheet/Code Help/Code Help.iml" filepath="$PROJECT_DIR$/SDE-Sheet/Code Help/Code Help.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collection Framework/Collection Framework.iml" filepath="$PROJECT_DIR$/Collection Framework/Collection Framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Data Structure And Algorithm In Java.iml" filepath="$PROJECT_DIR$/Data Structure And Algorithm In Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dynamic Programming/Dynamic Programming.iml" filepath="$PROJECT_DIR$/Dynamic Programming/Dynamic Programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interview/Figma/Figma.iml" filepath="$PROJECT_DIR$/Interview/Figma/Figma.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interview/Google/Google.iml" filepath="$PROJECT_DIR$/Interview/Google/Google.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Graph/Graph.iml" filepath="$PROJECT_DIR$/Graph/Graph.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Greedy/Greedy.iml" filepath="$PROJECT_DIR$/Greedy/Greedy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hashing/Hashing.iml" filepath="$PROJECT_DIR$/Hashing/Hashing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Heap And Priority Queue/Heap And Priority Queue.iml" filepath="$PROJECT_DIR$/Heap And Priority Queue/Heap And Priority Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interview/Interview.iml" filepath="$PROJECT_DIR$/Interview/Interview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode Blind 75/LeetCode Blind 75.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode Blind 75/LeetCode Blind 75.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/Leetcode Interview 150/Leetcode Interview 150.iml" filepath="$PROJECT_DIR$/LeetCode/Leetcode Interview 150/Leetcode Interview 150.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interview/LinkedIn/LinkedIn.iml" filepath="$PROJECT_DIR$/Interview/LinkedIn/LinkedIn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maths For DSA/Maths For DSA.iml" filepath="$PROJECT_DIR$/Maths For DSA/Maths For DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interview/Meta-Facebook/Meta-Facebook.iml" filepath="$PROJECT_DIR$/Interview/Meta-Facebook/Meta-Facebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interview/Microsoft/Microsoft.iml" filepath="$PROJECT_DIR$/Interview/Microsoft/Microsoft.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NeetCode/NeetCode.iml" filepath="$PROJECT_DIR$/NeetCode/NeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NeetCode/NeetCode 150/NeetCode 150.iml" filepath="$PROJECT_DIR$/NeetCode/NeetCode 150/NeetCode 150.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NeetCode/NeetCode 250/NeetCode 250.iml" filepath="$PROJECT_DIR$/NeetCode/NeetCode 250/NeetCode 250.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NeetCode/NeetCode All/NeetCode All.iml" filepath="$PROJECT_DIR$/NeetCode/NeetCode All/NeetCode All.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NeetCode/NeetCode Blind 75/NeetCode Blind 75.iml" filepath="$PROJECT_DIR$/NeetCode/NeetCode Blind 75/NeetCode Blind 75.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interview/Netflix/Netflix.iml" filepath="$PROJECT_DIR$/Interview/Netflix/Netflix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Object Oriented Programming/Object Oriented Programming.iml" filepath="$PROJECT_DIR$/Object Oriented Programming/Object Oriented Programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interview/Oracle/Oracle.iml" filepath="$PROJECT_DIR$/Interview/Oracle/Oracle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interview/Postman/Postman.iml" filepath="$PROJECT_DIR$/Interview/Postman/Postman.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Queue/Queue.iml" filepath="$PROJECT_DIR$/Queue/Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SDE-Sheet/SDE-Sheet.iml" filepath="$PROJECT_DIR$/SDE-Sheet/SDE-Sheet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interview/Saleforces/Saleforces.iml" filepath="$PROJECT_DIR$/Interview/Saleforces/Saleforces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting/Sorting.iml" filepath="$PROJECT_DIR$/Sorting/Sorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stack/Stack.iml" filepath="$PROJECT_DIR$/Stack/Stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SDE-Sheet/Take U Forward/Take U Forward.iml" filepath="$PROJECT_DIR$/SDE-Sheet/Take U Forward/Take U Forward.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Time And Space Complexity/Time And Space Complexity.iml" filepath="$PROJECT_DIR$/Time And Space Complexity/Time And Space Complexity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Trees/Trees.iml" filepath="$PROJECT_DIR$/Trees/Trees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Trees-Advanced/Trees-Advanced.iml" filepath="$PROJECT_DIR$/Trees-Advanced/Trees-Advanced.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tries/Tries.iml" filepath="$PROJECT_DIR$/Tries/Tries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Two Pointer And Sliding Window/Two Pointer And Sliding Window.iml" filepath="$PROJECT_DIR$/Two Pointer And Sliding Window/Two Pointer And Sliding Window.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interview/Uber/Uber.iml" filepath="$PROJECT_DIR$/Interview/Uber/Uber.iml" />
+    </modules>
+  </component>
+</project>

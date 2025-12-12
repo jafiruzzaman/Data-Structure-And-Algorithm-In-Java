@@ -50,7 +50,7 @@ public class moveZeros {
 
 
   static void main() {
-    System.out.println("");
+    System.out.println("Move Zeros to the end Problem");
     System.out.print("Enter the size of the array: ");
     Scanner sc = new Scanner(System.in);
     int arr[] = new int[sc.nextInt()];

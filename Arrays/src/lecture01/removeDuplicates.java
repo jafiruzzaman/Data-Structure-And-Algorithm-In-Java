@@ -59,5 +59,6 @@ class removeDuplicates{
     System.out.println("\nAfter Removing Duplicates Element In the Array present unique elements are: "+bruteResult);
     int optimalResult = removeDuplicatesOptimal(arr);
     System.out.println("After Removing Duplicates Element In the Array present unique elements are: "+optimalResult);
+    sc.close();
   }
 }

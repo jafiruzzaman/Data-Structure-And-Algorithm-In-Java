@@ -27,5 +27,7 @@ public class linearSearch {
       System.out.print(arr[i]+" ");
     }
     System.out.println("\nThe element "+x+" is present at "+result+" index");
+    // close
+    sc.close();
   }
 }

@@ -12,8 +12,7 @@ public class countOddNumberInAnArrayProblem {
     }
 
     static void main(String[] args) {
-        System.out.println("Count Odd ");
-        System.out.println("Count even numbers in an array problem");
+        System.out.println("Count Odd numbers in an array problem");
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size");
         int size = sc.nextInt();

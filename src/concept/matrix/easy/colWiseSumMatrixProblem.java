@@ -36,7 +36,6 @@ public class colWiseSumMatrixProblem {
             System.out.println("Enter elements for " + i + "th row ");
             for (int j = 0; j < arr[0].length; j++) {
                 arr[i][j] = sc.nextInt();
-                ;
             }
         }
         int[] res = colWiseSum(arr);

@@ -23,14 +23,15 @@ public class findLargestDifference {
 
     static void main(String[] args) {
         System.out.println("Find the largest difference in an array problem");
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size");
-        int size = sc.nextInt();
-        int[] arr = new int[size];
-        System.out.println("Enter the Array Elements");
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = sc.nextInt();
+        try(Scanner sc = new Scanner(System.in)){
+            System.out.println("Enter the size");
+            int size = sc.nextInt();
+            int[] arr = new int[size];
+            System.out.println("Enter the Array Elements");
+            for (int i = 0; i < arr.length; i++) {
+                arr[i] = sc.nextInt();
+            }
+            System.out.println("largest difference is " + largestDifference(arr));
         }
-        System.out.println("largest difference is " + largestDifference(arr));
     }
 }

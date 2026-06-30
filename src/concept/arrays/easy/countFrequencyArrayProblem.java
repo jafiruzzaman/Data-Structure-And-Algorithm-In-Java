@@ -17,17 +17,18 @@ public class countFrequencyArrayProblem {
 
     static void main(String[] args) {
         System.out.println("count the number of frequency in an array problem");
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size");
-        int size = sc.nextInt();
-        int[] arr = new int[size];
-        System.out.println("Enter array elements");
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = sc.nextInt();
+        try(Scanner sc = new Scanner(System.in)){
+            System.out.println("Enter the size");
+            int size = sc.nextInt();
+            int[] arr = new int[size];
+            System.out.println("Enter array elements");
+            for (int i = 0; i < arr.length; i++) {
+                arr[i] = sc.nextInt();
+            }
+            System.out.print("Enter the target element: ");
+            int num = sc.nextInt();
+            System.out.println(num + " appears " + countFrequency(arr, num) + " times in this array");
+            sc.close();
         }
-        System.out.print("Enter the target element: ");
-        int num = sc.nextInt();
-        System.out.println(num + " appears " + countFrequency(arr, num) + " times in this array");
-        sc.close();
     }
 }

@@ -16,10 +16,11 @@ public class largestDigitProblem {
 
     static void main(String[] args) {
         System.out.println("Largest digit in a Number Problem");
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number");
-        int num = sc.nextInt();
-        System.out.println("The largest digit in " + num + " is " + largestDigit(num));
-        sc.close();
+       try(Scanner sc = new Scanner(System.in)){
+           System.out.println("Enter a number");
+           int num = sc.nextInt();
+           System.out.println("The largest digit in " + num + " is " + largestDigit(num));
+           sc.close();
+       }
     }
 }

@@ -20,10 +20,11 @@ public class sumOfDigitProblem {
 
     static void main(String[] args) {
         System.out.println("sum of digits problem");
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number");
-        int num = sc.nextInt();
-        System.out.println("Sum of " + num + " digits is: " + sumOfDigit(num));
-        sc.close();
+        try(Scanner sc = new Scanner(System.in)){
+            System.out.println("Enter a number");
+            int num = sc.nextInt();
+            System.out.println("Sum of " + num + " digits is: " + sumOfDigit(num));
+            sc.close();
+        }
     }
 }

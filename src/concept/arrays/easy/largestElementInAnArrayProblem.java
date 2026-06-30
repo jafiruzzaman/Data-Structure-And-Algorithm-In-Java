@@ -17,14 +17,15 @@ public class largestElementInAnArrayProblem {
 
     static void main(String[] args) {
         System.out.println("largest element in an Array Problem");
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size");
-        int size = sc.nextInt();
-        int[] crr = new int[size];
-        for (int i = 0; i < crr.length; i++) {
-            crr[i] = sc.nextInt();
+        try(Scanner sc = new Scanner(System.in)){
+            System.out.println("Enter the size");
+            int size = sc.nextInt();
+            int[] crr = new int[size];
+            for (int i = 0; i < crr.length; i++) {
+                crr[i] = sc.nextInt();
+            }
+            System.out.println("largest element in this array is " + findLargest(crr));
+            sc.close();
         }
-        System.out.println("largest element in this array is " + findLargest(crr));
-        sc.close();
     }
 }

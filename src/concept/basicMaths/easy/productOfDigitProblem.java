@@ -19,9 +19,10 @@ public class productOfDigitProblem {
 
     static void main(String[] args) {
         System.out.println("Product of digit problem");
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number");
-        int num = sc.nextInt();
-        System.out.println("Sum of " + num + " digits is: " + productOfDigit(num));
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter a number");
+            int num = sc.nextInt();
+            System.out.println("Sum of " + num + " digits is: " + productOfDigit(num));
+        }
     }
 }

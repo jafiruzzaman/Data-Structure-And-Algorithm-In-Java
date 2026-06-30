@@ -33,16 +33,16 @@ public class moveZerosArrayProblem {
 
     static void main(String[] args) {
         System.out.println("Move zeros to the end");
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size");
-        int size = sc.nextInt();
-        int[] arr = new int[size];
-        System.out.println("Enter the Array Elements");
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter the size");
+            int size = sc.nextInt();
+            int[] arr = new int[size];
+            System.out.println("Enter the Array Elements");
+            for (int i = 0; i < arr.length; i++) {
+                arr[i] = sc.nextInt();
+            }
+            moveZeros(arr);
+            print(arr);
         }
-        moveZeros(arr);
-        print(arr);
-        sc.close();
     }
 }

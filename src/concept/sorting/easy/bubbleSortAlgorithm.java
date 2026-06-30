@@ -32,15 +32,15 @@ public class bubbleSortAlgorithm {
 
     static void main(String[] args) {
         System.out.println("Learn Bubble sort Algorithm");
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size");
-        int size = sc.nextInt();
-        int[] arr = new int[size];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter the size");
+            int size = sc.nextInt();
+            int[] arr = new int[size];
+            for (int i = 0; i < arr.length; i++) {
+                arr[i] = sc.nextInt();
+            }
+            bubbleSort(arr);
+            print(arr);
         }
-        bubbleSort(arr);
-        print(arr);
-        sc.close();
     }
 }

@@ -32,18 +32,18 @@ public class rightRotateAnArrayByKPlacesProblem {
 
     static void main(String[] args) {
         System.out.println("Left rotate an array by one places problem");
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size");
-        int size = sc.nextInt();
-        int[] arr = new int[size];
-        System.out.println("Enter the Array Elements");
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter the size");
+            int size = sc.nextInt();
+            int[] arr = new int[size];
+            System.out.println("Enter the Array Elements");
+            for (int i = 0; i < arr.length; i++) {
+                arr[i] = sc.nextInt();
+            }
+            System.out.println("How many times you want to rotate");
+            int rotate = sc.nextInt();
+            rightRotateByKPlaces(arr, rotate);
+            print(arr);
         }
-        System.out.println("How many times you want to rotate");
-        int rotate = sc.nextInt();
-        rightRotateByKPlaces(arr, rotate);
-        print(arr);
-        sc.close();
     }
 }

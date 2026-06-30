@@ -15,10 +15,11 @@ public class countOddDigitProblem {
 
     static void main(String[] args) {
         System.out.println("count Odd digit in a number");
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number");
-        int num = sc.nextInt();
-        System.out.println("Even Digit in the Number is " + countOddDigit(num));
-        sc.close();
+        try(Scanner sc = new Scanner(System.in)){
+            System.out.println("Enter a number");
+            int num = sc.nextInt();
+            System.out.println("Even Digit in the Number is " + countOddDigit(num));
+            sc.close();
+        }
     }
 }

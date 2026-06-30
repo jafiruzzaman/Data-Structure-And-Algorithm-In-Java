@@ -7,6 +7,7 @@ package concept.basicMaths.easy;
 import java.util.Scanner;
 
 public class palindromeNumberProblem {
+
     static boolean isPalindrome(int num) {
         int temp = Math.abs(num);
         num = Math.abs(num);
@@ -20,11 +21,12 @@ public class palindromeNumberProblem {
 
     static void main(String[] args) {
         System.out.println("Check if a number is palindrome or not");
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number");
-        int num = sc.nextInt();
-        boolean res = isPalindrome(num);
-        System.out.println("Is the number is palindrome: " + res);
-        sc.close();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter a number");
+            int num = sc.nextInt();
+            boolean res = isPalindrome(num);
+            System.out.println("Is the number is palindrome: " + res);
+            sc.close();
+        }
     }
 }

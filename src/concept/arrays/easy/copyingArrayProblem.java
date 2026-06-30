@@ -3,6 +3,7 @@ package concept.arrays.easy;
 import java.util.Scanner;
 
 public class copyingArrayProblem {
+
     static int[] copyingArray(int[] arr) {
         int[] newArr = new int[arr.length];
         int idx = 0;
@@ -22,17 +23,19 @@ public class copyingArrayProblem {
 
     static void main(String[] args) {
         System.out.println("Coping an Array Problem");
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size");
-        int size = sc.nextInt();
-        int[] crr = new int[size];
-        System.out.println("Enter array elements");
-        for (int i = 0; i < crr.length; i++) {
-            crr[i] = sc.nextInt();
+
+        try (Scanner sc = new Scanner(System.in);) {
+            System.out.println("Enter the size");
+            int size = sc.nextInt();
+            int[] crr = new int[size];
+            System.out.println("Enter array elements");
+            for (int i = 0; i < crr.length; i++) {
+                crr[i] = sc.nextInt();
+            }
+            int[] res = copyingArray(crr);
+            System.out.println("After coping new array");
+            print(res);
+            sc.close();
         }
-        int[] res = copyingArray(crr);
-        System.out.println("After coping new array");
-        print(res);
-        sc.close();
     }
 }

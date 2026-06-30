@@ -19,11 +19,12 @@ public class countDigits {
 
     static void main(String[] args) {
         System.out.println("count digit problem");
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number");
-        int num = sc.nextInt();
-        int res = countDigit(num);
-        System.out.println("total digit are " + res);
-        sc.close();
+        try(Scanner sc = new Scanner(System.in)){
+            System.out.println("Enter a number");
+            int num = sc.nextInt();
+            int res = countDigit(num);
+            System.out.println("total digit are " + res);
+            sc.close();
+        }
     }
 }

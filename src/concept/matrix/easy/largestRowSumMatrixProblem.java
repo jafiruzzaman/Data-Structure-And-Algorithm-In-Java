@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class largestRowSumMatrixProblem {
     static int largestRowSum(int[][] matrix) {
         int res = Integer.MIN_VALUE;
-        for (int i = 0; i < matrix.length; i++) {
+        for (int[] matrix1 : matrix) {
             int sum = 0;
             for (int j = 0; j < matrix[0].length; j++) {
-                sum += matrix[i][j];
+                sum += matrix1[j];
             }
             if (sum > res) res = sum;
         }
@@ -28,7 +28,6 @@ public class largestRowSumMatrixProblem {
                 System.out.println("Enter elements for " + i + "th row ");
                 for (int j = 0; j < arr[0].length; j++) {
                     arr[i][j] = sc.nextInt();
-                    ;
                 }
             }
             System.out.println("largest row sum is " + largestRowSum(arr));

@@ -27,16 +27,16 @@ public class reverseArrayProblem {
 
     static void main(String[] args) {
         System.out.println("reverse array Problem");
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size");
-        int size = sc.nextInt();
-        int[] arr = new int[size];
-        System.out.println("Enter array elements");
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter the size");
+            int size = sc.nextInt();
+            int[] arr = new int[size];
+            System.out.println("Enter array elements");
+            for (int i = 0; i < arr.length; i++) {
+                arr[i] = sc.nextInt();
+            }
+            reverseArray(arr);
+            print(arr);
         }
-        reverseArray(arr);
-        print(arr);
-        sc.close();
     }
 }

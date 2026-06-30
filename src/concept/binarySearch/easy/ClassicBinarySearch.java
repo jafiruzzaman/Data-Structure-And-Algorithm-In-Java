@@ -29,19 +29,19 @@ public class ClassicBinarySearch {
 
     static void main(String[] args) {
         System.out.println("classic binary search");
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size");
-        int size = sc.nextInt();
-        int[] crr = new int[size];
-        System.out.println("Enter array elements");
-        for (int i = 0; i < crr.length; i++) {
-            crr[i] = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter the size");
+            int size = sc.nextInt();
+            int[] crr = new int[size];
+            System.out.println("Enter array elements");
+            for (int i = 0; i < crr.length; i++) {
+                crr[i] = sc.nextInt();
+            }
+            System.out.println("Enter the target element");
+            int target = sc.nextInt();
+            int res = binarySearch(crr, target);
+            System.out.println(target + " element exist in " + res + "th index");
+            print(crr);
         }
-        System.out.println("Enter the target element");
-        int target = sc.nextInt();
-        int res = binarySearch(crr, target);
-        System.out.println(target + " element exist in " + res + "th index");
-        print(crr);
-        sc.close();
     }
 }
